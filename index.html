@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funerária - Caixões e Flores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    nav {
+      background-color: #444;
+      padding: 1em;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+    header {
+      background-color: #666;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    section {
+      padding: 2em;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1em;
+      width: 250px;
+      text-align: center;
+      margin: 1em;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#caskets">Caixões</a></li>
+      <li><a href="#flowers">Flores</a></li>
+      <li><a href="#about">Sobre Nós</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Bem-vindo à Funerária - Caixões e Flores</h1>
+    <p>Oferecemos uma variedade de caixões e flores para homenagear seus entes queridos.</p>
+  </header>
+
+  <!-- Caskets Section -->
+  <section id="caskets">
+    <h2>Caixões</h2>
+    <div class="products">
+      <div class="product">
+        <img src="casket1.jpg" alt="Caixão de madeira">
+        <h3>Caixão de Madeira</h3>
+        <p>R$2000,00</p>
+      </div>
+      <div class="product">
+        <img src="casket2.jpg" alt="Caixão luxuoso">
+        <h3>Caixão Luxuoso</h3>
+        <p>R$5000,00</p>
+      </div>
+      <!-- Add more caskets as needed -->
+    </div>
+  </section>
+
+  <!-- Flowers Section -->
+  <section id="flowers">
+    <h2>Flores</h2>
+    <div class="products">
+      <div class="product">
+        <img src="flower1.jpg" alt="Arranjo de flores brancas">
+        <h3>Arranjo de Flores Brancas</h3>
+        <p>R$300,00</p>
+      </div>
+      <div class="product">
+        <img src="flower2.jpg" alt="Buquê de rosas">
+        <h3>Buquê de Rosas</h3>
+        <p>R$150,00</p>
+      </div>
+      <!-- Add more flower options as needed -->
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>Sobre Nós</h2>
+    <p>Estamos aqui para oferecer suporte e produtos de alta qualidade em um momento difícil. Contamos com uma equipe experiente e comprometida com seu bem-estar.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Email: contato@funeraria.com.br</p>
+    <p>Telefone: (11) 1234-5678</p>
+    <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Funerária - Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
